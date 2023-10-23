@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/f7469207ab.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="styles.css" />
     <title>E-commerce</title>
   </head>
   <body>
@@ -17,358 +18,400 @@
         /></a>
       </div>
       <div class="header-content">
-        <a href="#" class="home">Home</a>
-        <a href="#" class="shop">Shop</a>
-        <a href="#" class="blog">Blog</a>
-        <a href="#" class="about">About</a>
-        <a href="#" class="contact">Contact</a>
+        <a href="index.html" class="home">Home</a>
+        <a href="shop.html" class="shop">Shop</a>
+        <a href="blog.html" class="blog">Blog</a>
+        <a href="about.html" class="about">About</a>
+        <a href="contact.html" class="contact">Contact</a>
         <a href="#" class="cart"><i class="fa-solid fa-shop"></i></a>
       </div>
     </header>
 
     <main>
+      <section class="space"></section>
       <section class="hero">
         <img src="img/hero4.png" alt="hero-img" class="hero-img" />
 
         <div class="hero-content">
           <h3>Trade in Offer</h3>
           <h1>Super Value Deals</h1>
-          <h1>On all products</h1>
+          <h1 class="green-head1">On all products</h1>
           <p class="hero-p">Lorem, ipsum dolor</p>
           <button class="hero-button">Shop Now</button>
+          <img src="img/button.png" alt="" class="hero-btn-background" />
         </div>
       </section>
+      <div class="to-top-container">
+        <button class="to-top">
+          <a href="#" class="to-top-link">To Top</a>
+        </button>
+      </div>
 
       <section class="features">
         <div class="feature-cards">
-          <div class="feature-card-1">
-            <img src="img/features/f1.png" alt="f1" class="features-img-1" />
-            <button class="feature-button-1">lorem, ipsum</button>
+          <div class="feature-card">
+            <img src="img/features/f1.png" alt="f1" class="features-img" />
+            <button class="feature-button feature-button-1">
+              lorem, ipsum
+            </button>
           </div>
-          <div class="feature-card-2">
-            <img src="img/features/f2.png" alt="f2" class="features-img-2" />
-            <button class="feature-button-2">lorem, ipsum</button>
+          <div class="feature-card">
+            <img src="img/features/f2.png" alt="f2" class="features-img" />
+            <button class="feature-button feature-button-2">
+              lorem, ipsum
+            </button>
           </div>
-          <div class="feature-card-3">
-            <img src="img/features/f3.png" alt="f3" class="features-img-3" />
-            <button class="feature-button-3">lorem, ipsum</button>
+          <div class="feature-card">
+            <img src="img/features/f3.png" alt="f3" class="features-img" />
+            <button class="feature-button feature-button-3">
+              lorem, ipsum
+            </button>
           </div>
-          <div class="feature-card-4">
-            <img src="img/features/f4.png" alt="f4" class="features-img-4" />
-            <button class="feature-button-4">lorem, ipsum</button>
+          <div class="feature-card">
+            <img src="img/features/f4.png" alt="f4" class="features-img" />
+            <button class="feature-button feature-button-4">
+              lorem, ipsum
+            </button>
           </div>
-          <div class="feature-card-5">
-            <img src="img/features/f5.png" alt="f5" class="features-img-5" />
-            <button class="feature-button-5">lorem, ipsum</button>
+          <div class="feature-card">
+            <img src="img/features/f5.png" alt="f5" class="features-img" />
+            <button class="feature-button feature-button-5">
+              lorem, ipsum
+            </button>
           </div>
-          <div class="feature-card-6">
-            <img src="img/features/f6.png" alt="f6" class="features-img-6" />
-            <button class="feature-button-6">lorem, ipsum</button>
+          <div class="feature-card">
+            <img src="img/features/f6.png" alt="f6" class="features-img" />
+            <button class="feature-button feature-button-6">
+              lorem, ipsum
+            </button>
           </div>
         </div>
       </section>
 
       <section class="featured-products">
-        <h2 class="feature-products-heading">Featured Products</h2>
+        <h1 class="featured-products-heading">Featured Products</h1>
         <p class="featured-products-text">Summer Collection</p>
 
-        <div class="featured-product-container">
-          <img
-            src="img/products/f1.jpg"
-            alt="featured-product-img"
-            class="featured-product-img-1"
-          />
+        <div class="featured-products-container-div">
+          <div class="featured-product-container">
+            <img
+              src="img/products/f1.jpg"
+              alt="featured-product-img"
+              class="featured-product-img"
+            />
+            <div class="featured-product-info">
+              <p class="featured-product-brand">Adidas</p>
+              <p class="featured-product-type">Cotton shirts pure Cotton</p>
 
-          <p class="featured-product-brand">Adidas</p>
-          <p class="featured-product-type">Cotton shirts pure Cotton</p>
+              <p class="featured-product-rating">STARS</p>
+              <p class="featured-product-price">$75</p>
+            </div>
+            <a href="#" class="featured-product-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="featured-product-container">
+            <img
+              src="img/products/f2.jpg"
+              alt="featured-product-img"
+              class="featured-product-img"
+            />
+            <div class="featured-product-info">
+              <p class="featured-product-brand">Adidas</p>
+              <p class="featured-product-type">Cotton shirts pure Cotton</p>
 
-          <p class="featured-product-rating">STARS</p>
-          <a href="#" class="featured-product-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="featured-product-container">
-          <img
-            src="img/products/f2.jpg"
-            alt="featured-product-img"
-            class="featured-product-img-1"
-          />
+              <p class="featured-product-rating">STARS</p>
+              <p class="featured-product-price">$75</p>
+            </div>
+            <a href="#" class="featured-product-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="featured-product-container">
+            <img
+              src="img/products/f3.jpg"
+              alt="featured-product-img"
+              class="featured-product-img"
+            />
+            <div class="featured-product-info">
+              <p class="featured-product-brand">Adidas</p>
+              <p class="featured-product-type">Cotton shirts pure Cotton</p>
 
-          <p class="featured-product-brand">Adidas</p>
-          <p class="featured-product-type">Cotton shirts pure Cotton</p>
+              <p class="featured-product-rating">STARS</p>
+              <p class="featured-product-price">$75</p>
+            </div>
+            <a href="#" class="featured-product-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="featured-product-container">
+            <img
+              src="img/products/f4.jpg"
+              alt="featured-product-img"
+              class="featured-product-img"
+            />
+            <div class="featured-product-info">
+              <p class="featured-product-brand">Adidas</p>
+              <p class="featured-product-type">Cotton shirts pure Cotton</p>
 
-          <p class="featured-product-rating">STARS</p>
-          <a href="#" class="featured-product-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="featured-product-container">
-          <img
-            src="img/products/f3.jpg"
-            alt="featured-product-img"
-            class="featured-product-img-1"
-          />
+              <p class="featured-product-rating">STARS</p>
+              <p class="featured-product-price">$75</p>
+            </div>
+            <a href="#" class="featured-product-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="featured-product-container">
+            <img
+              src="img/products/f5.jpg"
+              alt="featured-product-img"
+              class="featured-product-img"
+            />
+            <div class="featured-product-info">
+              <p class="featured-product-brand">Adidas</p>
+              <p class="featured-product-type">Cotton shirts pure Cotton</p>
 
-          <p class="featured-product-brand">Adidas</p>
-          <p class="featured-product-type">Cotton shirts pure Cotton</p>
+              <p class="featured-product-rating">STARS</p>
+              <p class="featured-product-price">$75</p>
+            </div>
+            <a href="#" class="featured-product-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="featured-product-container">
+            <img
+              src="img/products/f6.jpg"
+              alt="featured-product-img"
+              class="featured-product-img"
+            />
+            <div class="featured-product-info">
+              <p class="featured-product-brand">Adidas</p>
+              <p class="featured-product-type">Cotton shirts pure Cotton</p>
 
-          <p class="featured-product-rating">STARS</p>
-          <a href="#" class="featured-product-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="featured-product-container">
-          <img
-            src="img/products/f4.jpg"
-            alt="featured-product-img"
-            class="featured-product-img-1"
-          />
+              <p class="featured-product-rating">STARS</p>
+              <p class="featured-product-price">$75</p>
+            </div>
+            <a href="#" class="featured-product-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="featured-product-container">
+            <img
+              src="img/products/f7.jpg"
+              alt="featured-product-img"
+              class="featured-product-img"
+            />
+            <div class="featured-product-info">
+              <p class="featured-product-brand">Adidas</p>
+              <p class="featured-product-type">Cotton shirts pure Cotton</p>
 
-          <p class="featured-product-brand">Adidas</p>
-          <p class="featured-product-type">Cotton shirts pure Cotton</p>
+              <p class="featured-product-rating">STARS</p>
+              <p class="featured-product-price">$75</p>
+            </div>
+            <a href="#" class="featured-product-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="featured-product-container">
+            <img
+              src="img/products/f8.jpg"
+              alt="featured-product-img"
+              class="featured-product-img"
+            />
+            <div class="featured-product-info">
+              <p class="featured-product-brand">Adidas</p>
+              <p class="featured-product-type">Cotton shirts pure Cotton</p>
 
-          <p class="featured-product-rating">STARS</p>
-          <a href="#" class="featured-product-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="featured-product-container">
-          <img
-            src="img/products/f5.jpg"
-            alt="featured-product-img"
-            class="featured-product-img-1"
-          />
-
-          <p class="featured-product-brand">Adidas</p>
-          <p class="featured-product-type">Cotton shirts pure Cotton</p>
-
-          <p class="featured-product-rating">STARS</p>
-          <a href="#" class="featured-product-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="featured-product-container">
-          <img
-            src="img/products/f6.jpg"
-            alt="featured-product-img"
-            class="featured-product-img-1"
-          />
-
-          <p class="featured-product-brand">Adidas</p>
-          <p class="featured-product-type">Cotton shirts pure Cotton</p>
-
-          <p class="featured-product-rating">STARS</p>
-          <a href="#" class="featured-product-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="featured-product-container">
-          <img
-            src="img/products/f7.jpg"
-            alt="featured-product-img"
-            class="featured-product-img-1"
-          />
-
-          <p class="featured-product-brand">Adidas</p>
-          <p class="featured-product-type">Cotton shirts pure Cotton</p>
-
-          <p class="featured-product-rating">STARS</p>
-          <a href="#" class="featured-product-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="featured-product-container">
-          <img
-            src="img/products/f8.jpg"
-            alt="featured-product-img"
-            class="featured-product-img-1"
-          />
-
-          <p class="featured-product-brand">Adidas</p>
-          <p class="featured-product-type">Cotton shirts pure Cotton</p>
-
-          <p class="featured-product-rating">STARS</p>
-          <a href="#" class="featured-product-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
+              <p class="featured-product-rating">STARS</p>
+              <p class="featured-product-price">$75</p>
+            </div>
+            <a href="#" class="featured-product-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
         </div>
       </section>
 
       <section class="banner">
-        <img src="img/banner/b2.jpg" alt="banner-img" class="banner-img" />
+        <!-- <img src="img/banner/b2.jpg" alt="banner-img" class="banner-img" /> -->
 
         <div class="banner-container">
-          <p class="banner-text">Repair Services</p>
-          <h2 class="banner-heading">
-            Upto
-            <span class="banner-heading-span"
-              >70% Off- All T-shirts & Accessories</span
-            >
-          </h2>
-          <button class="banner-btn">Explore More</button>
+          <div class="banner-info">
+            <p class="banner-text">Repair Services</p>
+            <h2 class="banner-heading">
+              Upto
+              <span class="banner-heading-span">70% Off</span> - All T-shirts &
+              Accessories
+            </h2>
+            <button class="banner-btn">Explore More</button>
+          </div>
         </div>
       </section>
 
       <section class="new-arrivals">
-        <h2 class="new-arrivals-heading">Featured Products</h2>
+        <h1 class="new-arrivals-heading">New-Arrival</h1>
         <p class="new-arrivals-text">Summer Collection</p>
 
-        <div class="new-arrivals-container">
-          <img
-            src="img/products/f1.jpg"
-            alt="new-arrivals-img"
-            class="new-arrivals-img-"
-          />
+        <div class="new-arrivals-container-div">
+          <div class="new-arrival-container">
+            <img
+              src="img/products/n1.jpg"
+              alt="new-arrival-img"
+              class="new-arrival-img"
+            />
+            <div class="new-arrival-info">
+              <p class="new-arrival-brand">Adidas</p>
+              <p class="new-arrival-type">Cotton shirts pure Cotton</p>
 
-          <p class="new-arrivals-brand">Adidas</p>
-          <p class="new-arrivals-type">Cotton shirts pure Cotton</p>
+              <p class="new-arrival-rating">STARS</p>
+              <p class="new-arrival-price">$75</p>
+            </div>
+            <a href="#" class="new-arrival-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="new-arrival-container">
+            <img
+              src="img/products/n2.jpg"
+              alt="new-arrival-img"
+              class="new-arrival-img"
+            />
+            <div class="new-arrival-info">
+              <p class="new-arrival-brand">Adidas</p>
+              <p class="new-arrival-type">Cotton shirts pure Cotton</p>
 
-          <p class="new-arrivals-rating">STARS</p>
-          <a href="#" class="new-arrivals-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="new-arrivals-container">
-          <img
-            src="img/products/f2.jpg"
-            alt="new-arrivals-img"
-            class="new-arrivals-img-"
-          />
+              <p class="new-arrival-rating">STARS</p>
+              <p class="new-arrival-price">$75</p>
+            </div>
+            <a href="#" class="new-arrival-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="new-arrival-container">
+            <img
+              src="img/products/n3.jpg"
+              alt="new-arrival-img"
+              class="new-arrival-img"
+            />
+            <div class="new-arrival-info">
+              <p class="new-arrival-brand">Adidas</p>
+              <p class="new-arrival-type">Cotton shirts pure Cotton</p>
 
-          <p class="new-arrivals-brand">Adidas</p>
-          <p class="new-arrivals-type">Cotton shirts pure Cotton</p>
+              <p class="new-arrival-rating">STARS</p>
+              <p class="new-arrival-price">$75</p>
+            </div>
+            <a href="#" class="new-arrival-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="new-arrival-container">
+            <img
+              src="img/products/n4.jpg"
+              alt="new-arrival-img"
+              class="new-arrival-img"
+            />
+            <div class="new-arrival-info">
+              <p class="new-arrival-brand">Adidas</p>
+              <p class="new-arrival-type">Cotton shirts pure Cotton</p>
 
-          <p class="new-arrivals-rating">STARS</p>
-          <a href="#" class="new-arrivals-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="new-arrivals-container">
-          <img
-            src="img/products/f3.jpg"
-            alt="new-arrivals-img"
-            class="new-arrivals-img-"
-          />
+              <p class="new-arrival-rating">STARS</p>
+              <p class="new-arrival-price">$75</p>
+            </div>
+            <a href="#" class="new-arrival-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="new-arrival-container">
+            <img
+              src="img/products/n5.jpg"
+              alt="new-arrival-img"
+              class="new-arrival-img"
+            />
+            <div class="new-arrival-info">
+              <p class="new-arrival-brand">Adidas</p>
+              <p class="new-arrival-type">Cotton shirts pure Cotton</p>
 
-          <p class="new-arrivals-brand">Adidas</p>
-          <p class="new-arrivals-type">Cotton shirts pure Cotton</p>
+              <p class="new-arrival-rating">STARS</p>
+              <p class="new-arrival-price">$75</p>
+            </div>
+            <a href="#" class="new-arrival-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="new-arrival-container">
+            <img
+              src="img/products/n6.jpg"
+              alt="new-arrival-img"
+              class="new-arrival-img"
+            />
+            <div class="new-arrival-info">
+              <p class="new-arrival-brand">Adidas</p>
+              <p class="new-arrival-type">Cotton shirts pure Cotton</p>
 
-          <p class="new-arrivals-rating">STARS</p>
-          <a href="#" class="new-arrivals-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="new-arrivals-container">
-          <img
-            src="img/products/f4.jpg"
-            alt="new-arrivals-img"
-            class="new-arrivals-img-"
-          />
+              <p class="new-arrival-rating">STARS</p>
+              <p class="new-arrival-price">$75</p>
+            </div>
+            <a href="#" class="new-arrival-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="new-arrival-container">
+            <img
+              src="img/products/n7.jpg"
+              alt="new-arrival-img"
+              class="new-arrival-img"
+            />
+            <div class="new-arrival-info">
+              <p class="new-arrival-brand">Adidas</p>
+              <p class="new-arrival-type">Cotton shirts pure Cotton</p>
 
-          <p class="new-arrivals-brand">Adidas</p>
-          <p class="new-arrivals-type">Cotton shirts pure Cotton</p>
+              <p class="new-arrival-rating">STARS</p>
+              <p class="new-arrival-price">$75</p>
+            </div>
+            <a href="#" class="new-arrival-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
+          <div class="new-arrival-container">
+            <img
+              src="img/products/n8.jpg"
+              alt="new-arrival-img"
+              class="new-arrival-img"
+            />
+            <div class="new-arrival-info">
+              <p class="new-arrival-brand">Adidas</p>
+              <p class="new-arrival-type">Cotton shirts pure Cotton</p>
 
-          <p class="new-arrivals-rating">STARS</p>
-          <a href="#" class="new-arrivals-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="new-arrivals-container">
-          <img
-            src="img/products/f5.jpg"
-            alt="new-arrivals-img"
-            class="new-arrivals-img-"
-          />
-
-          <p class="new-arrivals-brand">Adidas</p>
-          <p class="new-arrivals-type">Cotton shirts pure Cotton</p>
-
-          <p class="new-arrivals-rating">STARS</p>
-          <a href="#" class="new-arrivals-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="new-arrivals-container">
-          <img
-            src="img/products/f6.jpg"
-            alt="new-arrivals-img"
-            class="new-arrivals-img-"
-          />
-
-          <p class="new-arrivals-brand">Adidas</p>
-          <p class="new-arrivals-type">Cotton shirts pure Cotton</p>
-
-          <p class="new-arrivals-rating">STARS</p>
-          <a href="#" class="new-arrivals-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="new-arrivals-container">
-          <img
-            src="img/products/f7.jpg"
-            alt="new-arrivals-img"
-            class="new-arrivals-img-"
-          />
-
-          <p class="new-arrivals-brand">Adidas</p>
-          <p class="new-arrivals-type">Cotton shirts pure Cotton</p>
-
-          <p class="new-arrivals-rating">STARS</p>
-          <a href="#" class="new-arrivals-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
-        </div>
-        <div class="new-arrivals-container">
-          <img
-            src="img/products/f8.jpg"
-            alt="new-arrivals-img"
-            class="new-arrivals-img-"
-          />
-
-          <p class="new-arrivals-brand">Adidas</p>
-          <p class="new-arrivals-type">Cotton shirts pure Cotton</p>
-
-          <p class="new-arrivals-rating">STARS</p>
-          <a href="#" class="new-arrivals-cart"
-            ><i class="fa-solid fa-shop"></i
-          ></a>
+              <p class="new-arrival-rating">STARS</p>
+              <p class="new-arrival-price">$75</p>
+            </div>
+            <a href="#" class="new-arrival-cart"
+              ><i class="fa-solid fa-shop"></i
+            ></a>
+          </div>
         </div>
       </section>
 
       <section class="discount-season-sale">
-        <div class="discount">
-          <div class="discount-container">
-            <div class="discount">
-              <p class="discount-text">Crazy Deals</p>
-              <h2 class="discount-heading">buy 1 get 1 free</h2>
-              <p class="discount-text-a">
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-              <button class="discount-btn">Learn more</button>
-            </div>
-
-            <img
-              src="img/banner/b17.jpg"
-              alt="discount-img"
-              class="discount-img"
-            />
+        <div class="discount-1">
+          <div class="discount-1-info">
+            <p class="discount-text">Crazy Deals</p>
+            <h2 class="discount-heading">buy 1 get 1 free</h2>
+            <p class="discount-text-a">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+            <button class="discount-btn">Learn more</button>
           </div>
+        </div>
 
-          <div class="discount-container">
-            <div class="discount">
-              <p class="discount-text">Crazy Deals</p>
-              <h2 class="discount-heading">buy 1 get 1 free</h2>
-              <p class="discount-text-a">
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-              <button class="discount-btn">Learn more</button>
-            </div>
-
-            <img
-              src="img/banner/b10.jpg"
-              alt="discount-img"
-              class="discount-img"
-            />
+        <div class="discount-2">
+          <div class="discount-1-info">
+            <p class="discount-text">Summer Spring</p>
+            <h2 class="discount-heading">buy 1 get 1 free</h2>
+            <p class="discount-text-a">
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+            <button class="discount-btn">Learn more</button>
           </div>
         </div>
 
@@ -416,11 +459,12 @@
         <div class="newsletter-sign-up">
           <h3 class="newsletter-heading">Sign uP for newsletters</h3>
           <p class="newsletter-text">
-            Lorem ipsum, dolor sit amet consectetur.
+            Lorem ipsum, dolor sit amet
+            <span class="newsletter-subtext">consectetur</span>.
           </p>
         </div>
 
-        <div class="newsletter-input">
+        <div class="newsletter-form">
           <input type="email" class="newsletter-email" />
           <button class="newsletter-btn">Sign Up</button>
         </div>
@@ -432,7 +476,7 @@
         <div class="footer-contact">
           <img src="img/logo.png" alt="footer-logo" class="footer-logo" />
 
-          <p class="footer-contact-text">Contact</p>
+          <p class="footer-heading">Contact</p>
           <p>Address : <span class="thin-font">Lorem ipsum dolor sit</span></p>
           <p>Phone : <span class="thin-font">13569450030</span></p>
           <p>Hours : <span class="thin-font">5hoai</span></p>
@@ -443,24 +487,24 @@
         </div>
 
         <div class="footer-about">
-          <p class="footer-about-text">About</p>
-          <p>About Us</p>
-          <p>Delivery Information</p>
-          <p>Privacy Policy</p>
-          <p>Terms & Conditions</p>
-          <p>Contact Us</p>
-          <p>About US</p>
+          <p class="footer-heading">About</p>
+          <p class="footer-highlight">About Us</p>
+          <p class="footer-highlight">Delivery Information</p>
+          <p class="footer-highlight">Privacy Policy</p>
+          <p class="footer-highlight">Terms & Conditions</p>
+          <p class="footer-highlight">Contact Us</p>
+          <p class="footer-highlight">About US</p>
         </div>
         <div class="footer-my-account">
-          <p class="footer-my-account-text">MY Account</p>
-          <p>Sign In</p>
-          <p>View Cart</p>
-          <p>My Wishlist</p>
-          <p>Track My Order</p>
-          <p>Help</p>
+          <p class="footer-heading">MY Account</p>
+          <p class="footer-highlight">Sign In</p>
+          <p class="footer-highlight">View Cart</p>
+          <p class="footer-highlight">My Wishlist</p>
+          <p class="footer-highlight">Track My Order</p>
+          <p class="footer-highlight">Help</p>
         </div>
-        <div class="footer-install-app">
-          <p class="footer-install-app-text">Install App</p>
+        <div class="footer-intstall-payment">
+          <p class="footer-heading">Install App</p>
           <p>From App store or Google Play store</p>
           <div class="play-app-store">
             <img src="img/pay/app.jpg" alt="app-store" class="app-store" />
